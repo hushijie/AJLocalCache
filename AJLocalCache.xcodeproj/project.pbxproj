@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D1B8CBD1F42A00000DF99CE /* AJLocalCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CBC1F42A00000DF99CE /* AJLocalCacheTool.m */; };
+		9D1B8CC71F42A4BF00DF99CE /* OWServiceOrderDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CC01F42A4BF00DF99CE /* OWServiceOrderDownloadModel.m */; };
+		9D1B8CC81F42A4BF00DF99CE /* OWShippingAddressCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CC21F42A4BF00DF99CE /* OWShippingAddressCityModel.m */; };
+		9D1B8CC91F42A4BF00DF99CE /* OWShippingAddressDistrictModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CC41F42A4BF00DF99CE /* OWShippingAddressDistrictModel.m */; };
+		9D1B8CCA1F42A4BF00DF99CE /* OWShippingAddressProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CC61F42A4BF00DF99CE /* OWShippingAddressProvinceModel.m */; };
+		9D1B8CD01F42A57200DF99CE /* AJLocalCacheBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CCF1F42A57200DF99CE /* AJLocalCacheBaseModel.m */; };
+		9D1B8CE11F42AC8900DF99CE /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CD31F42AC8900DF99CE /* MJConst.m */; };
+		9D1B8CE21F42AC8900DF99CE /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CD61F42AC8900DF99CE /* MJFoundation.m */; };
+		9D1B8CE31F42AC8900DF99CE /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CD81F42AC8900DF99CE /* MJIvar.m */; };
+		9D1B8CE41F42AC8900DF99CE /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CDA1F42AC8900DF99CE /* MJType.m */; };
+		9D1B8CE51F42AC8900DF99CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CDC1F42AC8900DF99CE /* NSObject+MJCoding.m */; };
+		9D1B8CE61F42AC8900DF99CE /* NSObject+MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CDE1F42AC8900DF99CE /* NSObject+MJIvar.m */; };
+		9D1B8CE71F42AC8900DF99CE /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B8CE01F42AC8900DF99CE /* NSObject+MJKeyValue.m */; };
+		9D1B8CEA1F42ADE900DF99CE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1B8CE91F42ADE900DF99CE /* libsqlite3.tbd */; };
+		9D1B8CEC1F42AED800DF99CE /* FindAllArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D1B8CEB1F42AED800DF99CE /* FindAllArea.plist */; };
 		9D9981CC1F3AFFCC002A2C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9981CB1F3AFFCC002A2C34 /* main.m */; };
 		9D9981CF1F3AFFCC002A2C34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9981CE1F3AFFCC002A2C34 /* AppDelegate.m */; };
 		9D9981D21F3AFFCC002A2C34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9981D11F3AFFCC002A2C34 /* ViewController.m */; };
@@ -15,6 +30,11 @@
 		9D9981DA1F3AFFCC002A2C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9981D81F3AFFCC002A2C34 /* LaunchScreen.storyboard */; };
 		9D9981E51F3AFFCC002A2C34 /* AJLocalCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9981E41F3AFFCC002A2C34 /* AJLocalCacheTests.m */; };
 		9D9981F01F3AFFCC002A2C34 /* AJLocalCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9981EF1F3AFFCC002A2C34 /* AJLocalCacheUITests.m */; };
+		9D99820B1F3B00F0002A2C34 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9982011F3B00F0002A2C34 /* FMDatabase.m */; };
+		9D99820C1F3B00F0002A2C34 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9982031F3B00F0002A2C34 /* FMDatabaseAdditions.m */; };
+		9D99820D1F3B00F0002A2C34 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9982051F3B00F0002A2C34 /* FMDatabasePool.m */; };
+		9D99820E1F3B00F0002A2C34 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9982071F3B00F0002A2C34 /* FMDatabaseQueue.m */; };
+		9D99820F1F3B00F0002A2C34 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D99820A1F3B00F0002A2C34 /* FMResultSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D1B8CBB1F42A00000DF99CE /* AJLocalCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJLocalCacheTool.h; sourceTree = "<group>"; };
+		9D1B8CBC1F42A00000DF99CE /* AJLocalCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJLocalCacheTool.m; sourceTree = "<group>"; };
+		9D1B8CBF1F42A4BF00DF99CE /* OWServiceOrderDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWServiceOrderDownloadModel.h; sourceTree = "<group>"; };
+		9D1B8CC01F42A4BF00DF99CE /* OWServiceOrderDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWServiceOrderDownloadModel.m; sourceTree = "<group>"; };
+		9D1B8CC11F42A4BF00DF99CE /* OWShippingAddressCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWShippingAddressCityModel.h; sourceTree = "<group>"; };
+		9D1B8CC21F42A4BF00DF99CE /* OWShippingAddressCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWShippingAddressCityModel.m; sourceTree = "<group>"; };
+		9D1B8CC31F42A4BF00DF99CE /* OWShippingAddressDistrictModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWShippingAddressDistrictModel.h; sourceTree = "<group>"; };
+		9D1B8CC41F42A4BF00DF99CE /* OWShippingAddressDistrictModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWShippingAddressDistrictModel.m; sourceTree = "<group>"; };
+		9D1B8CC51F42A4BF00DF99CE /* OWShippingAddressProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWShippingAddressProvinceModel.h; sourceTree = "<group>"; };
+		9D1B8CC61F42A4BF00DF99CE /* OWShippingAddressProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWShippingAddressProvinceModel.m; sourceTree = "<group>"; };
+		9D1B8CCE1F42A57200DF99CE /* AJLocalCacheBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJLocalCacheBaseModel.h; sourceTree = "<group>"; };
+		9D1B8CCF1F42A57200DF99CE /* AJLocalCacheBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJLocalCacheBaseModel.m; sourceTree = "<group>"; };
+		9D1B8CD21F42AC8900DF99CE /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		9D1B8CD31F42AC8900DF99CE /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		9D1B8CD41F42AC8900DF99CE /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		9D1B8CD51F42AC8900DF99CE /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		9D1B8CD61F42AC8900DF99CE /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		9D1B8CD71F42AC8900DF99CE /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		9D1B8CD81F42AC8900DF99CE /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		9D1B8CD91F42AC8900DF99CE /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		9D1B8CDA1F42AC8900DF99CE /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		9D1B8CDB1F42AC8900DF99CE /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		9D1B8CDC1F42AC8900DF99CE /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		9D1B8CDD1F42AC8900DF99CE /* NSObject+MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJIvar.h"; sourceTree = "<group>"; };
+		9D1B8CDE1F42AC8900DF99CE /* NSObject+MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJIvar.m"; sourceTree = "<group>"; };
+		9D1B8CDF1F42AC8900DF99CE /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		9D1B8CE01F42AC8900DF99CE /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		9D1B8CE91F42ADE900DF99CE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9D1B8CEB1F42AED800DF99CE /* FindAllArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FindAllArea.plist; sourceTree = "<group>"; };
 		9D9981C71F3AFFCC002A2C34 /* AJLocalCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJLocalCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9981CB1F3AFFCC002A2C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D9981CD1F3AFFCC002A2C34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +100,17 @@
 		9D9981EB1F3AFFCC002A2C34 /* AJLocalCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJLocalCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9981EF1F3AFFCC002A2C34 /* AJLocalCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJLocalCacheUITests.m; sourceTree = "<group>"; };
 		9D9981F11F3AFFCC002A2C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9982001F3B00F0002A2C34 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9D9982011F3B00F0002A2C34 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9D9982021F3B00F0002A2C34 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9D9982031F3B00F0002A2C34 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9D9982041F3B00F0002A2C34 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9D9982051F3B00F0002A2C34 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9D9982061F3B00F0002A2C34 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9D9982071F3B00F0002A2C34 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9D9982081F3B00F0002A2C34 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9D9982091F3B00F0002A2C34 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9D99820A1F3B00F0002A2C34 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1B8CEA1F42ADE900DF99CE /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +139,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D1B8CBE1F42A3A900DF99CE /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				9D1B8CEB1F42AED800DF99CE /* FindAllArea.plist */,
+				9D1B8CBF1F42A4BF00DF99CE /* OWServiceOrderDownloadModel.h */,
+				9D1B8CC01F42A4BF00DF99CE /* OWServiceOrderDownloadModel.m */,
+				9D1B8CC11F42A4BF00DF99CE /* OWShippingAddressCityModel.h */,
+				9D1B8CC21F42A4BF00DF99CE /* OWShippingAddressCityModel.m */,
+				9D1B8CC31F42A4BF00DF99CE /* OWShippingAddressDistrictModel.h */,
+				9D1B8CC41F42A4BF00DF99CE /* OWShippingAddressDistrictModel.m */,
+				9D1B8CC51F42A4BF00DF99CE /* OWShippingAddressProvinceModel.h */,
+				9D1B8CC61F42A4BF00DF99CE /* OWShippingAddressProvinceModel.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		9D1B8CD11F42AC8900DF99CE /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9D1B8CD21F42AC8900DF99CE /* MJConst.h */,
+				9D1B8CD31F42AC8900DF99CE /* MJConst.m */,
+				9D1B8CD41F42AC8900DF99CE /* MJExtension.h */,
+				9D1B8CD51F42AC8900DF99CE /* MJFoundation.h */,
+				9D1B8CD61F42AC8900DF99CE /* MJFoundation.m */,
+				9D1B8CD71F42AC8900DF99CE /* MJIvar.h */,
+				9D1B8CD81F42AC8900DF99CE /* MJIvar.m */,
+				9D1B8CD91F42AC8900DF99CE /* MJType.h */,
+				9D1B8CDA1F42AC8900DF99CE /* MJType.m */,
+				9D1B8CDB1F42AC8900DF99CE /* NSObject+MJCoding.h */,
+				9D1B8CDC1F42AC8900DF99CE /* NSObject+MJCoding.m */,
+				9D1B8CDD1F42AC8900DF99CE /* NSObject+MJIvar.h */,
+				9D1B8CDE1F42AC8900DF99CE /* NSObject+MJIvar.m */,
+				9D1B8CDF1F42AC8900DF99CE /* NSObject+MJKeyValue.h */,
+				9D1B8CE01F42AC8900DF99CE /* NSObject+MJKeyValue.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		9D1B8CE81F42ADE900DF99CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D1B8CE91F42ADE900DF99CE /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D9981BE1F3AFFCC002A2C34 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +192,7 @@
 				9D9981E31F3AFFCC002A2C34 /* AJLocalCacheTests */,
 				9D9981EE1F3AFFCC002A2C34 /* AJLocalCacheUITests */,
 				9D9981C81F3AFFCC002A2C34 /* Products */,
+				9D1B8CE81F42ADE900DF99CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +209,8 @@
 		9D9981C91F3AFFCC002A2C34 /* AJLocalCache */ = {
 			isa = PBXGroup;
 			children = (
+				9D1B8CBE1F42A3A900DF99CE /* Test */,
+				9D9981FD1F3B00F0002A2C34 /* Classes */,
 				9D9981CD1F3AFFCC002A2C34 /* AppDelegate.h */,
 				9D9981CE1F3AFFCC002A2C34 /* AppDelegate.m */,
 				9D9981D01F3AFFCC002A2C34 /* ViewController.h */,
@@ -138,6 +248,45 @@
 				9D9981F11F3AFFCC002A2C34 /* Info.plist */,
 			);
 			path = AJLocalCacheUITests;
+			sourceTree = "<group>";
+		};
+		9D9981FD1F3B00F0002A2C34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D9981FE1F3B00F0002A2C34 /* AJLocalCache */,
+				9D1B8CD11F42AC8900DF99CE /* MJExtension */,
+				9D9981FF1F3B00F0002A2C34 /* FMDB */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D9981FE1F3B00F0002A2C34 /* AJLocalCache */ = {
+			isa = PBXGroup;
+			children = (
+				9D1B8CBB1F42A00000DF99CE /* AJLocalCacheTool.h */,
+				9D1B8CBC1F42A00000DF99CE /* AJLocalCacheTool.m */,
+				9D1B8CCE1F42A57200DF99CE /* AJLocalCacheBaseModel.h */,
+				9D1B8CCF1F42A57200DF99CE /* AJLocalCacheBaseModel.m */,
+			);
+			path = AJLocalCache;
+			sourceTree = "<group>";
+		};
+		9D9981FF1F3B00F0002A2C34 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9D9982001F3B00F0002A2C34 /* FMDatabase.h */,
+				9D9982011F3B00F0002A2C34 /* FMDatabase.m */,
+				9D9982021F3B00F0002A2C34 /* FMDatabaseAdditions.h */,
+				9D9982031F3B00F0002A2C34 /* FMDatabaseAdditions.m */,
+				9D9982041F3B00F0002A2C34 /* FMDatabasePool.h */,
+				9D9982051F3B00F0002A2C34 /* FMDatabasePool.m */,
+				9D9982061F3B00F0002A2C34 /* FMDatabaseQueue.h */,
+				9D9982071F3B00F0002A2C34 /* FMDatabaseQueue.m */,
+				9D9982081F3B00F0002A2C34 /* FMDB.h */,
+				9D9982091F3B00F0002A2C34 /* FMResultSet.h */,
+				9D99820A1F3B00F0002A2C34 /* FMResultSet.m */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +400,7 @@
 			files = (
 				9D9981DA1F3AFFCC002A2C34 /* LaunchScreen.storyboard in Resources */,
 				9D9981D71F3AFFCC002A2C34 /* Assets.xcassets in Resources */,
+				9D1B8CEC1F42AED800DF99CE /* FindAllArea.plist in Resources */,
 				9D9981D51F3AFFCC002A2C34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +426,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1B8CC91F42A4BF00DF99CE /* OWShippingAddressDistrictModel.m in Sources */,
+				9D1B8CCA1F42A4BF00DF99CE /* OWShippingAddressProvinceModel.m in Sources */,
+				9D1B8CD01F42A57200DF99CE /* AJLocalCacheBaseModel.m in Sources */,
 				9D9981D21F3AFFCC002A2C34 /* ViewController.m in Sources */,
+				9D1B8CE11F42AC8900DF99CE /* MJConst.m in Sources */,
+				9D99820D1F3B00F0002A2C34 /* FMDatabasePool.m in Sources */,
 				9D9981CF1F3AFFCC002A2C34 /* AppDelegate.m in Sources */,
+				9D1B8CE21F42AC8900DF99CE /* MJFoundation.m in Sources */,
+				9D1B8CE61F42AC8900DF99CE /* NSObject+MJIvar.m in Sources */,
+				9D1B8CC81F42A4BF00DF99CE /* OWShippingAddressCityModel.m in Sources */,
+				9D1B8CE71F42AC8900DF99CE /* NSObject+MJKeyValue.m in Sources */,
+				9D99820E1F3B00F0002A2C34 /* FMDatabaseQueue.m in Sources */,
+				9D1B8CE41F42AC8900DF99CE /* MJType.m in Sources */,
+				9D1B8CE31F42AC8900DF99CE /* MJIvar.m in Sources */,
+				9D1B8CC71F42A4BF00DF99CE /* OWServiceOrderDownloadModel.m in Sources */,
 				9D9981CC1F3AFFCC002A2C34 /* main.m in Sources */,
+				9D99820B1F3B00F0002A2C34 /* FMDatabase.m in Sources */,
+				9D1B8CE51F42AC8900DF99CE /* NSObject+MJCoding.m in Sources */,
+				9D99820F1F3B00F0002A2C34 /* FMResultSet.m in Sources */,
+				9D1B8CBD1F42A00000DF99CE /* AJLocalCacheTool.m in Sources */,
+				9D99820C1F3B00F0002A2C34 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +597,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJLocalCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJLocalCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +610,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJLocalCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJLocalCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +686,7 @@
 				9D9981F61F3AFFCC002A2C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D9981F71F3AFFCC002A2C34 /* Build configuration list for PBXNativeTarget "AJLocalCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +695,7 @@
 				9D9981F91F3AFFCC002A2C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D9981FA1F3AFFCC002A2C34 /* Build configuration list for PBXNativeTarget "AJLocalCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +704,7 @@
 				9D9981FC1F3AFFCC002A2C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
